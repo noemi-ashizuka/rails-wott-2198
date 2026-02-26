@@ -3,6 +3,7 @@ RubyLLM.configure do |config|
   # NOTE(Eschults): Uncomment next two lines to use the Github Azure OpenAI playground
   config.openai_api_key = ENV["GITHUB_TOKEN"]
   config.openai_api_base = "https://models.inference.ai.azure.com"
+  # config.gemini_api_key = ENV["GEMINI_API_KEY"] 
   # Add keys ONLY for providers you intend to use
   # config.anthropic_api_key = ENV.fetch('ANTHROPIC_API_KEY', nil)
   # ... see Configuration guide for all options ...
